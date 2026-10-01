@@ -3,7 +3,7 @@ const monthlyPurchases = 2;
 const standartRate = 10;
 const increasedRate = 20;
 const frequentPurchaseBonus = 5;
-const finalPercent = 0;
+let finalPercent = 0;
 
 
 if (bonusBalance > 5000) {
