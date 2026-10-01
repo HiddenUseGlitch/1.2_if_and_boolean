@@ -1,5 +1,5 @@
-let name = '';
-let balance = 5001;
+let name = 'admin';
+let balance = 6000;
 
 if (name === 'admin') {
     console.log('Администратор');
@@ -9,4 +9,6 @@ if (name === 'admin') {
     console.log('Вип-клиент');
 } else if (balance > 1000) {
     console.log('Постоянный покупатель');
-} 
+} else {
+    console.log(name);
+}
