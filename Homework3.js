@@ -1,10 +1,9 @@
-let sumOfPurchases = 3000;
-let bonusBalance = 5000;
-let monthlyPurchases = 2;
-let standartRate = 10;
-let increasedRate = 20;
-let frequentPurchaseBonus = 5;
-let finalPercent = 0;
+const bonusBalance = 5000;
+const monthlyPurchases = 2;
+const standartRate = 10;
+const increasedRate = 20;
+const frequentPurchaseBonus = 5;
+const finalPercent = 0;
 
 
 if (bonusBalance > 5000) {
